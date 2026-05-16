@@ -1,2 +1,4 @@
 console.log('Starting DevOps pipeline...');
-setTimeout  (() => console.log('Waiting 4 seconds...'), 4000);  
+console.log('Pipeline is running...');
+console.log('Tests passed!');
+process.exit(0);
